@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="55a1bf20-e821-43a1-975a-671bb1b2da91" name="sty">
+        <fileTransfer rootFolder="/data/Disk_A/tianyu/u2net" accessType="SFTP" sshConfigId="ddac13e4-1ae4-49e8-80a5-fee86d805938" sshConfig="tianyu@172.18.234.17:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
