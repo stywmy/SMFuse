@@ -3,3 +3,4 @@ This is the code of the paper titled as "SMFuse: Two-Stage Structural Map Aware 
 
 The article is accepted by International Conference on Pattern Recognition.
 
+# Framework
