@@ -34,7 +34,7 @@ Please create a new test image data file, modify the corresponding path in predi
 python predict.py 
 ```
 
-Attention: Before running, it is necessary to comment out the code of the second stage
+Note: Before running, it is necessary to comment out the code of the second stage. Similarly, you need to comment out irrelevant parts of the train_utils/train_and_ eval.py, src/model.py, and my_dataset.py code.
 
 In the second stage:
 Please put the structure diagram obtained in the first stage into a folder, modify the corresponding path in predict.exe, and then run the following prompt:
@@ -43,6 +43,8 @@ Please put the structure diagram obtained in the first stage into a folder, modi
 python predict.py # Obtain a preliminary decision map
 python predict_final.py # Obtain the final decision map and fused image
 ```
+
+Note: Before running, it is necessary to comment out the code of the first stage. Similarly, you need to comment out irrelevant parts of the train_utils/train_and_ eval.py, src/model.py, and my_dataset.py code.
 
 # Contact Informaiton
 
