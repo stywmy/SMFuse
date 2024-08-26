@@ -4,4 +4,4 @@ This is the code of the paper titled as "SMFuse: Two-Stage Structural Map Aware 
 The article is accepted by International Conference on Pattern Recognition.
 
 # Framework
-![Image](https://github.com/stywmy/SMFuse/edit/main/src/framework.png)
+![Image](https://github.com/stywmy/SMFuse/blob/main/src/framework.png)
