@@ -14,3 +14,12 @@ The article is accepted by International Conference on Pattern Recognition.
 - torch 2.0.1
 - torchvision 0.15.2
 - tqdm 4.65.0
+
+# To Train
+
+You can run the following prompt:
+
+```python
+python train.py
+```
+Note: SMGNet and DMGNet need to be trained separately in the code
