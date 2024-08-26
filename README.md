@@ -7,3 +7,10 @@ The article is accepted by International Conference on Pattern Recognition.
 ![Image](https://github.com/stywmy/SMFuse/blob/main/src/framework.png)
 ![Image](https://github.com/stywmy/SMFuse/blob/main/src/SMENet.png)
 ![Image](https://github.com/stywmy/SMFuse/blob/main/src/DMGNet.png)
+
+# Environment
+
+- Python 3.8.16
+- torch 2.0.1
+- torchvision 0.15.2
+- tqdm 4.65.0
