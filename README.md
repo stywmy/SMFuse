@@ -5,3 +5,5 @@ The article is accepted by International Conference on Pattern Recognition.
 
 # Framework
 ![Image](https://github.com/stywmy/SMFuse/blob/main/src/framework.png)
+![Image](https://github.com/stywmy/SMFuse/blob/main/src/SMENet.png)
+![Image](https://github.com/stywmy/SMFuse/blob/main/src/DMGNet.png)
