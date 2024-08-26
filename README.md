@@ -34,7 +34,7 @@ Please create a new test image data file, modify the corresponding path in predi
 python predict.py 
 ```
 
-Note: Before running, it is necessary to comment out the code of the second stage. Similarly, you need to comment out irrelevant parts of the src/model.py code.
+Note: Before running, it is necessary to comment out the code of the second stage. Similarly, you need to comment out irrelevant parts of the src/model.py code.model_30_structure.pth is for first stage.
 
 In the second stage:
 Please put the structure diagram obtained in the first stage into a folder, modify the corresponding path in predict.exe, and then run the following prompt:
@@ -44,7 +44,7 @@ python predict.py # Obtain a preliminary decision map
 python predict_final.py # Obtain the final decision map and fused image
 ```
 
-Note: Before running, it is necessary to comment out the code of the first stage. Similarly, you need to comment out irrelevant parts of the src/model.py code.
+Note: Before running, it is necessary to comment out the code of the first stage. Similarly, you need to comment out irrelevant parts of the src/model.py code.model_30.pth is for second stage.
 
 # Contact Informaiton
 
