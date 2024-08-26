@@ -23,3 +23,27 @@ You can run the following prompt:
 python train.py
 ```
 Note: SMGNet and DMGNet need to be trained separately in the code
+
+
+# To Test
+
+In the first stage:
+Please create a new test image data file, modify the corresponding path in predict.py, and then run the following prompt:
+
+```python
+python predict.py 
+```
+
+Attention: Before running, it is necessary to comment out the code of the second stage
+
+In the second stage:
+Please put the structure diagram obtained in the first stage into a folder, modify the corresponding path in predict.exe, and then run the following prompt:
+
+```python
+python predict.py # Obtain a preliminary decision map
+python predict_final.py # Obtain the final decision map and fused image
+```
+
+# Contact Informaiton
+
+If you have any questions, please contact me at <tianyu_shen_jnu@163.com>.
